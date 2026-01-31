@@ -26,7 +26,6 @@ public class HomePanelView : BasePanel
 
     [Header("CMFreeLook")]
     [SerializeField] private CinemachineInputAxisController input;
-    [SerializeField]
     private CinemachineInputAxisController Input
     {
         get
