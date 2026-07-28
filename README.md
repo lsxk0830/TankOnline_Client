@@ -2,6 +2,7 @@
 
 [优化结果见Optimize.md](./Optimize.md)
 
+
 #### 流程图
 
 ```mermaid
@@ -54,6 +55,15 @@ graph TD
     Z6 --> AA[游戏结束]
     AA --> AB[服务器Socket发送结束战斗协议并更改数据库]
     AB --> AC[客户端本地判断并修改显示UI]
+    
+    LuaA[Lua流程--C# 启动] --> LuaB[Main.cs 挂载到场景]
+    LuaB --> LuaC[LuaManager.Instance.Init]
+    LuaC --> LuaD[创建 LuaEnv + 注册 AB 包 Loader]
+    LuaD --> LuaE[DoLuaFile 'Main']
+    LuaE --> LuaF[require 'InitClass'<br/>注册 C# 类型别名]
+    LuaF --> LuaG[require 'BasePanel'<br/>加载 UI 基类]
+    LuaG --> LuaH[require 业务面板]
+    LuaH --> LuaI[业务逻辑完全由 Lua 接管]
     
     style A fill:#f9f,stroke:#333
     style E fill:#bbf,stroke:#333
