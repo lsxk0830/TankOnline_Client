@@ -1,0 +1,28 @@
+ManifestFileVersion: 0
+UnityVersion: 6000.3.6f1
+CRC: 1918700773
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 833977dac198bbabd79fd466b6181f3a
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 5ad585dd02dfb5016c0dad519eab8f49
+  IncrementalBuildHash:
+    serializedVersion: 2
+    Hash: b7c5b9821ee16bbb9439cb9d9219ac7a
+HashAppended: 0
+ClassTypes:
+- Class: 49
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/LuaTxt/DailyRewardsPanel.lua.txt
+- Assets/LuaTxt/SplitTools.lua.txt
+- Assets/LuaTxt/Main.lua.txt
+- Assets/LuaTxt/InitClass.lua.txt
+- Assets/LuaTxt/BasePanel.lua.txt
+- Assets/LuaTxt/Object.lua.txt
+- Assets/LuaTxt/ItemGrid.lua.txt
+- Assets/LuaTxt/JsonUtility.lua.txt
+Dependencies: []

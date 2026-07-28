@@ -1,0 +1,15 @@
+ManifestFileVersion: 0
+UnityVersion: 6000.3.6f1
+CRC: 15533002
+HashAppended: 0
+AssetBundleManifest:
+  AssetBundleInfos:
+    Info_0:
+      Name: unifiedraytracing
+      Dependencies: {}
+    Info_1:
+      Name: lua
+      Dependencies: {}
+    Info_2:
+      Name: ui
+      Dependencies: {}
